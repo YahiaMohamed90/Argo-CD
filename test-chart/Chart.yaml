@@ -1,0 +1,5 @@
+# Chart.yaml
+apiVersion: v2
+name: test-chart
+description: A Helm chart for custom resources and pods
+version: 0.1.1
