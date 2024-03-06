@@ -1,0 +1,7 @@
+{{- if .Values.scalingSchedule.enabled -}}
+apiVersion: example.example.com/v1
+kind: ScalingSchedule
+metadata:
+  name: {{ .Values.scalingSchedule.name }}
+  namespace: {{ .Values.scalingSchedule.namespace }}
+{{- end }}
