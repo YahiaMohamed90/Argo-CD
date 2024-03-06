@@ -1,0 +1,10 @@
+scalingSchedule:
+  enabled: true
+  name: scaling-schedule
+  namespace: default
+
+pod:
+  enabled: true
+  name: my-pod
+  containerName: my-container
+  imageName: yahiadevops25/instabug-test:v3
